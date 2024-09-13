@@ -47,7 +47,10 @@ public class Ven2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(255, 204, 102));
+
         jLabel2.setFont(new java.awt.Font("Dubai Medium", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Ingrese el precio de costo del producto");
 
         cost.addActionListener(new java.awt.event.ActionListener() {
@@ -70,6 +73,7 @@ public class Ven2 extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Dubai Medium", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText(" El costo del articulo es:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
